@@ -1,5 +1,5 @@
 name              "rot13"
-version           "1.0.0"
+version           "1.0.1"
 
 maintainer        "Fletcher Nichol"
 maintainer_email  "fnichol@nichol.ca"
