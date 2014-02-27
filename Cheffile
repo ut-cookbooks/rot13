@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site "http://community.opscode.com/api/v1"
+
+cookbook "rot13", path: "."
+cookbook "fixtures", path: "spec/unit/fixtures"
+cookbook "test", path: "spec/integration/cookbooks/test"
