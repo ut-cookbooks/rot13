@@ -8,7 +8,6 @@ end
 
 require 'rspec/core/rake_task'
 RSpec::Core::RakeTask.new(:unit) do |t|
-  t.rspec_opts = "--color --format documentation"
   t.pattern = ["spec/unit/**/*_spec.rb"]
 end
 
